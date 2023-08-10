@@ -5,17 +5,17 @@ homepage: https://github.com/hivedb/hive/tree/master/hive
 documentation: https://docs.hivedb.dev/
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
-  meta: ^1.3.0
-  crypto: ^3.0.0
-  js: ^0.6.4
+  meta: ^1.3.0 ## active (dart.dev)
+  crypto: ^3.0.0 ## active (dart.dev)
+  js: ^0.6.4 ## active (dart.dev)
 
 dev_dependencies:
-  test: ^1.17.12
-  mocktail: ^0.2.0
-  lints: ^1.0.0
-  path: ^1.7.0
-  pointycastle: ^3.0.1
-  build_runner: ^2.1.2
+  test: ^1.17.12 ## active (dart.dev)
+  mocktail: ^1.0.0 ## active (felangel.dev)
+  lints: ^1.0.0  ## active (tools.dart.dev)
+  path: ^1.7.0 ## active (dart.dev)
+  pointycastle: ^3.0.1 ## active (bouncycastle.org)
+  build_runner: ^2.1.2 ## active (tools.dart.dev)
